@@ -10,7 +10,7 @@ const AddComment = (props) => {
   //   },
   // };
 
-  const [comment, setComment] = useState({ comment: "", rate: 1, elementId: this.props.asin });
+  const [comment, setComment] = useState({ comment: "", rate: 1, elementId: props.asin });
 
   useEffect(() => {
     setComment({
